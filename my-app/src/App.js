@@ -1,4 +1,4 @@
-//add new feature
+//add new features
 import React from "react";
 function App() {
   return (
