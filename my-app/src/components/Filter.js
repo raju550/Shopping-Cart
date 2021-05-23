@@ -7,9 +7,7 @@ class Filter extends Component {
       <div>loading...</div>
     ) : (
       <div className="filter">
-        <div className="filter-result">
-          {this.props.filteredProducts.length} Products
-        </div>
+        <div className="filter-result">{} Products</div>
         <div className="filter-sort">
           Order{" "}
           <select
